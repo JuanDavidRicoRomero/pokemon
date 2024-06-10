@@ -1,0 +1,36 @@
+.second-layout {
+    display: flex;
+    width: var(--width-welcome);
+    height: 100%;
+    margin: 0 auto;
+    padding: 6rem 0rem;
+}
+
+
+/* Responsive design  */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+    .second-layout {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .second-layout {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .second-layout {
+        width: 100%;
+        padding: 0rem 2.5rem;
+    }
+    
+}

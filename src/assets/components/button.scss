@@ -1,0 +1,126 @@
+.button {
+    &__basic {
+        border-radius: 6rem;
+        -webkit-border-radius: 6rem;
+        -moz-border-radius: 6rem;
+        -ms-border-radius: 6rem;
+        -o-border-radius: 6rem;
+        background-color: #F22539;
+        color: #FFFFFF;
+        width: auto;
+        margin: 0 auto;
+        border: none;
+        cursor: pointer;
+        padding: 1.1rem 2rem;
+        white-space: nowrap;
+        font-weight: 700;
+        line-height: 2.16rem;
+        height: 4.4rem;
+        outline: none;
+
+        @media (max-width: 991px) {
+            
+        }
+
+        img {
+            width: 2.2rem;
+            margin-right: 1.1rem;
+        }
+
+        &:active {
+            background-color: #C00E20;
+            border: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+
+    &__left-list {
+        display: flex;
+        width: var(--width-list);
+        justify-content : center;
+        align-items : center;
+        height: 4.4rem;
+        margin: 0rem 0rem;
+
+        @media (max-width: 991px) {
+            width: 60%;
+        }
+    
+        @media (max-width: 767px) {
+            width: 80%;
+        } 
+    
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+    }
+
+    &__right-list {
+        display: flex;
+        width: var(--width-list);
+        justify-content : center;
+        align-items : center;
+        height: 4.4rem;
+        margin: 0rem 0rem;
+        background-color : #BFBFBF;
+
+        @media (max-width: 991px) {
+            width: 60%;
+        }
+    
+        @media (max-width: 767px) {
+            width: 80%;
+        } 
+    
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+    }
+
+
+    &__div-left {
+        display: flex;
+        justify-content : flex-end;
+        align-items : center;
+        margin-right : 1rem;
+        width: 50%;
+    
+        @media (max-width: 576px) {
+            padding-left: 3rem;
+        }
+    }
+
+    &__div-right {
+        display: flex;
+        justify-content : flex-start;
+        align-items : center;
+        margin-left : 1rem;
+        width: 50%;
+
+        @media (max-width: 576px) {
+            padding-right: 3rem;
+        }
+    }
+
+
+    &__modal-div {
+        width: 50%;
+    }
+
+    &__modal-button {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    &__active {
+        background-color: #F22539;
+    }
+
+    &__disabled {
+        background-color: #BFBFBF;
+    }
+}
